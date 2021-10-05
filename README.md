@@ -15,6 +15,6 @@ App Flow:
 
 ![App flow](https://i.ibb.co/GJFQ8yD/teatanic-flow.png)
 
-Screens demo:
+Screens demo (tap if it doesn't start):
 
 ![Screens demo](https://s9.gifyu.com/images/ezgif.com-gif-maker-183b252b90202e67e.gif)
