@@ -1,0 +1,6 @@
+framework module Pods_teatanicTests {
+  umbrella header "Pods-teatanicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,136 @@
+{
+  "teas" : {
+    "tea1" : {
+      "availability" : true,
+      "desc" : "An earthy, rich flavor distinguishes this Chinese pu-erh tea from regular black teas. Sometimes sold in bricks or cakes, our organic Pu-erh tea is leaf style, making it convenient and easy to use without losing any of the robust flavor you expect from Pu-erh. Aged teas are thought to offer many health benefits as well as lots of antioxidants and moderate caffeine (about half that of a cup of coffee).",
+      "ingredients" : "Organic Pu-Erh tea",
+      "name" : "Leaf Pu-Erh Tea",
+      "origin" : "China",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1464902564026-26SM2FL32T6UF0YQZ0UW/Leaf_Pu-erh+_organic.jpeg?format=1000w",
+      "price" : "14.99$",
+      "type" : "Pu-erh Tea",
+      "weight" : "50g"
+    },
+    "tea10" : {
+      "availability" : false,
+      "desc" : "Purple tea is an entirely new category of tea! Purple tea is produced from the leaves of the camellia sinensis plant, which is the same plant from which black, green, oolong, and other types of tea are made. Unlike other types of tea, however, the leaves of this new varietal are purple instead of green. The tea was first discovered growing wild in the Assam region of India, and is now grown commercially in Kenya, Africa. Our purple tea is from the Tumoi Tea Garden in the Nandi Hills of Kenya.",
+      "ingredients" : "Organic purple tea",
+      "name" : "Kenyan Purple Leaf",
+      "origin" : "Kenya",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1623966212977-Z3TXSF2KHTYL4Q8X7CI0/P+-+Kenyan+Purple+Leaf+%28bag%29.jpg?format=1000w",
+      "price" : "20.99$",
+      "type" : "Purple Tea",
+      "weight" : "200g"
+    },
+    "tea11" : {
+      "availability" : true,
+      "desc" : "Our Egyptian Chamomile is made from the highest quality organic chamomile sourced from Egypt. This single-ingredient herbal tea is characterized by large, fragrant chamomile flower heads, and brews up into a lovely gold-colored infusion, with a mellow natural sweetness and notes of straw, honey, and apples.",
+      "ingredients" : "Organic Egyptian chamomile.",
+      "name" : "Organic Egyptian Chamomile ",
+      "origin" : "Egypt",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1488555861425-GH9QAO0ZKPW5QXYL0Y0U/EgyptianChamomileHerbal1.jpg?format=1000w",
+      "price" : "22.99$",
+      "type" : "Herbal Tea",
+      "weight" : "150g"
+    },
+    "tea12" : {
+      "availability" : true,
+      "desc" : "Delicate white peony tea (Pai Mu Dan) blends into a delicious and beautiful tea with the addition of organic mango cubes, apples and pear. Exceptional hot or iced. Very low in caffeine. Extremely high in antioxidants!",
+      "ingredients" : "Organic white tea (Chinese Pai Mu Dan), organic apple pieces, organic freeze-dried mango cubes, organic calendula petals",
+      "name" : "Organic Mango Pear",
+      "origin" : "India",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1599413958889-GRU27LDG081RC9WUN52G/Dandy+Cinnamon+%28bag%29.jpg?format=1000w",
+      "price" : "27.99$",
+      "type" : "Pu-erh Tea",
+      "weight" : "200g"
+    },
+    "tea2" : {
+      "availability" : true,
+      "desc" : "Our organic Irish Breakfast makes a rich cup of tea that’s sure to get you going in the morning. This stout, robust blend of Assam, Ceylon, and Tanzanian teas creates a full-bodied, malty tea that pairs well with milk and sugar. A good strong cuppa! Irish Breakfast contains a moderate amount of caffeine (about half that of a cup of coffee).",
+      "ingredients" : "Organic black tea",
+      "name" : "Organic Irish Breakfast",
+      "origin" : "India",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1583022578670-EHU293K654L6D19G7B9P/B+-+Irish+Breakfast+%28bag%29.jpg?format=1000w",
+      "price" : "22.99$",
+      "type" : "Black Tea",
+      "weight" : "250g"
+    },
+    "tea3" : {
+      "availability" : true,
+      "desc" : "Genmaicha Matcha blends two traditional Japanese green teas together for a tasty hybrid cup of tea! Genmaicha, which features Sencha and Bancha mixed with toasted rice kernels, and Matcha, which is a powdered green tea, combine beautifully to create a rich, toasty, warming flavor that is slightly sweet and creamy. This bright green infusion is extremely high in antioxidants and low in caffeine.",
+      "ingredients" : "Organic green tea, organic toasted rice, organic matcha tea powder",
+      "name" : "Organic Genmaicha Matcha",
+      "origin" : "Sri Lanka",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1445139629540-XVELEUF9HFB09SNUEFEQ/genmaicha.jpeg?format=1000w",
+      "price" : "18.99$",
+      "type" : "Green Tea",
+      "weight" : "350g"
+    },
+    "tea4" : {
+      "availability" : false,
+      "desc" : "Our organic Lapsang Souchong is a smoky, aromatic tea with a smooth, crisp character. Reminiscent of woodsmoke or even expensive cigars, this classic tea has a hint of natural sweetness and is perfect to curl up with on a cool day. Like a campfire in a cup! Lapsang Souchong contains a moderate amount of caffeine (about half that of a cup of coffee).",
+      "ingredients" : "Organic white tea",
+      "name" : "Organic Lapsang Souchong",
+      "origin" : "China",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1458074702037-57JH50FN16SFGQUD6YAB/lapsang-souchong-black-tea.jpeg?format=1000w",
+      "price" : "20.99$",
+      "type" : "Black Tea",
+      "weight" : "50g"
+    },
+    "tea5" : {
+      "availability" : true,
+      "desc" : "Purple tea is an entirely new category of tea! Just like black or green tea, it is from the Camellia Sinensis plant, but the leaves of these tea bushes are purple instead of green. It was first discovered growing wild in the Assam region of India, and is now grown commercially in Kenya, Africa. Ours is from the Tumoi Tea Garden in the Nandi Hills of Kenya.",
+      "ingredients" : "Purple leaf tea, apple, pineapple, lemon peel, currants, blue corn flower, natural lychee flavor.",
+      "name" : "Lychee Purple Leaf",
+      "origin" : "Kenya",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1616173901895-6V974QGCFPVVS997FT7T/P+-+Lychee+Purple+%28bag%29.jpg?format=1000w",
+      "price" : "19.99$",
+      "type" : "Purple Tea",
+      "weight" : "50g"
+    },
+    "tea6" : {
+      "availability" : true,
+      "desc" : "This richly flavored dark tea combines the sweet decadence of caramel with the earthy, mustiness of an aged pu-erh to create something akin to dessert in a teacup. Smooth with a naturally sweet finish, this tea is warming and thick – perfect for an afternoon pick-me-up. Excellent with a splash of milk. High in antioxidants. Moderate caffeine (about half that of a cup of coffee).",
+      "ingredients" : "Caramel, organic Pu-erh tea",
+      "name" : "Caramel Pu-erh Tea",
+      "origin" : "China",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1613595037973-Q1ZX2BZD8WCR7ZW0TW2N/P+-+Caramel+Puerh+%28tin%29.jpg?format=1000w",
+      "price" : "21.99$",
+      "type" : "Pue-erh Tea",
+      "weight" : "250g"
+    },
+    "tea7" : {
+      "availability" : true,
+      "desc" : "Organic Bai Hao Silver Needle tea leaves are scented with fresh jasmine blossoms to create a delicate, aromatic tea with the tantalizing floral taste of jasmine. This exceptional tea is very low in caffeine and high in antioxidants.",
+      "ingredients" : "Organic white tea",
+      "name" : "Organic Jasmine Silver Needle",
+      "origin" : "Japan",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1616175863548-3CWNG7CQX6FJOZIFMXDO/W+-+Jasmine+Silver+Needle+%28tin+1%29.jpg?format=1000w",
+      "price" : "18.99$",
+      "type" : "White Tea",
+      "weight" : "150g"
+    },
+    "tea8" : {
+      "availability" : true,
+      "desc" : "An “Autumn Flush” tea from Nepal, this double roasted oolong is full-bodied, with subtle notes of apricot, malt and caramel in a deep amber-red brew. Many infusions are possible with these leaves. Low to moderate caffeine (less than half that of a cup of coffee).",
+      "ingredients" : "Organic oolong tea",
+      "name" : "Amber Autumn Oolong",
+      "origin" : "Nepal",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1540680607174-SW0RBJ8UOZLIXHAY4EVH/O+-+Amber+Autumn+Oolong+%28bag%29.jpg?format=1000w",
+      "price" : "16.99$",
+      "type" : "Oolong Tea",
+      "weight" : "150g"
+    },
+    "tea9" : {
+      "availability" : true,
+      "desc" : "Spicy and sweet, warm and soothing, while also being incredibly healthful and tasty? Oh, yes! This remarkable blend of turmeric, ginger, licorice, lemongrass and orange has a deep and satisfying flavor while also providing outstanding health benefits. Brews into a beautifully bright golden yellow liquor. Caffeine free.",
+      "ingredients" : "ginger root*, turmeric root*, licorice root*, lemongrass*, orange peel*, lemon peel*, orange essential oil, lemon essential oil (*Certified Organic ingredients).",
+      "name" : "Organic Atomic Gold",
+      "origin" : "United Kingdom",
+      "picture" : "https://images.squarespace-cdn.com/content/v1/55bfb182e4b0d40fc717da51/1619199970885-LIY0HEWNJ01XW12TVCGR/H+-+Atomic+Gold+%28tin%29.jpg?format=1000w",
+      "price" : "20.99$",
+      "type" : "Herbal Tea",
+      "weight" : "200g"
+    }
+  }
+}

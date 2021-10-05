@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A246744F29507950EFE5E9D0 /* Pods_teatanic_teatanicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D440F52FF78AD2DBE6DCEFE /* Pods_teatanic_teatanicUITests.framework */; };
+		B9BE2117F1024C09B0DC2706 /* Pods_teatanic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB96CB86ACEF9242FBA0178F /* Pods_teatanic.framework */; };
+		CF3072F63D1BB7E8207FCF0E /* Pods_teatanicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA9D1C8E1F9E1F81F23EC29 /* Pods_teatanicTests.framework */; };
+		E70D6A0126E76A4200619517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A0026E76A4200619517 /* AppDelegate.swift */; };
+		E70D6A0326E76A4200619517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A0226E76A4200619517 /* SceneDelegate.swift */; };
+		E70D6A0526E76A4200619517 /* MainBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A0426E76A4200619517 /* MainBoardViewController.swift */; };
+		E70D6A0826E76A4200619517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70D6A0626E76A4200619517 /* Main.storyboard */; };
+		E70D6A0B26E76A4200619517 /* teatanic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A0926E76A4200619517 /* teatanic.xcdatamodeld */; };
+		E70D6A0D26E76A4300619517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70D6A0C26E76A4300619517 /* Assets.xcassets */; };
+		E70D6A1026E76A4300619517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70D6A0E26E76A4300619517 /* LaunchScreen.storyboard */; };
+		E70D6A1B26E76A4300619517 /* teatanicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A1A26E76A4300619517 /* teatanicTests.swift */; };
+		E70D6A2626E76A4300619517 /* teatanicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A2526E76A4300619517 /* teatanicUITests.swift */; };
+		E70D6A3426E76AC700619517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E70D6A3326E76AC700619517 /* GoogleService-Info.plist */; };
+		E70D6A3726E799BB00619517 /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A3626E799BB00619517 /* BoardCollectionViewCell.swift */; };
+		E70D6A3926E7A88700619517 /* BoardDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A3826E7A88700619517 /* BoardDataSource.swift */; };
+		E70D6A3C26E7B2BD00619517 /* TeaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A3B26E7B2BD00619517 /* TeaType.swift */; };
+		E70D6A3F26E8B77800619517 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A3E26E8B77800619517 /* Strings.swift */; };
+		E70D6A4226E8E01D00619517 /* TeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A4126E8E01D00619517 /* TeaViewController.swift */; };
+		E70D6A4426E8F9B600619517 /* TeaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A4326E8F9B600619517 /* TeaTableViewCell.swift */; };
+		E70D6A4626E8FA3100619517 /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A4526E8FA3100619517 /* Tea.swift */; };
+		E70D6A4826E8FCA100619517 /* TeaDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A4726E8FCA100619517 /* TeaDataSource.swift */; };
+		E70D6A4A26E9004B00619517 /* ViewExpert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D6A4926E9004B00619517 /* ViewExpert.swift */; };
+		E7216C0426F0BD15002B5136 /* CartTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C0326F0BD15002B5136 /* CartTableDataSource.swift */; };
+		E7216C0626F0BD71002B5136 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C0526F0BD71002B5136 /* CartCell.swift */; };
+		E7216C0C26F1E9A6002B5136 /* CartUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C0B26F1E9A6002B5136 /* CartUtil.swift */; };
+		E7216C0E26F28234002B5136 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C0D26F28234002B5136 /* SideMenuViewController.swift */; };
+		E7216C1026F28264002B5136 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C0F26F28264002B5136 /* MainViewController.swift */; };
+		E7216C1226F28396002B5136 /* SideMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C1126F28396002B5136 /* SideMenuOption.swift */; };
+		E7216C1426F283DA002B5136 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7216C1326F283DA002B5136 /* SideMenuCell.swift */; };
+		E72CE72626EF71B5005CAB5B /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CE72526EF71B5005CAB5B /* CartViewController.swift */; };
+		E72CE72B26EF7A57005CAB5B /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CE72A26EF7A57005CAB5B /* Protocols.swift */; };
+		E72DFDED2705B54000E72C22 /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DFDEC2705B54000E72C22 /* CustomProgressBar.swift */; };
+		E764095A26EB428500F78BD7 /* TeaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E764095926EB428500F78BD7 /* TeaDetailViewController.swift */; };
+		E764095C26EB494200F78BD7 /* IngredientsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E764095B26EB494200F78BD7 /* IngredientsDataSource.swift */; };
+		E764095E26EB8C1B00F78BD7 /* WrapContentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E764095D26EB8C1B00F78BD7 /* WrapContentTableView.swift */; };
+		E7B95DD42704E0E400BBBB21 /* CustomPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DD32704E0E400BBBB21 /* CustomPopupView.swift */; };
+		E7B95DD62704E80900BBBB21 /* CustomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B95DD52704E80900BBBB21 /* CustomPopupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70D6A1726E76A4300619517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D69F526E76A4200619517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D69FC26E76A4200619517;
+			remoteInfo = teatanic;
+		};
+		E70D6A2226E76A4300619517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70D69F526E76A4200619517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70D69FC26E76A4200619517;
+			remoteInfo = teatanic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5F4F8E9CC2906AA501BAAE /* Pods-teatanic-teatanicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teatanic-teatanicUITests.release.xcconfig"; path = "Target Support Files/Pods-teatanic-teatanicUITests/Pods-teatanic-teatanicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2415081454B0D8845F63B16E /* Pods-teatanic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teatanic.debug.xcconfig"; path = "Target Support Files/Pods-teatanic/Pods-teatanic.debug.xcconfig"; sourceTree = "<group>"; };
+		3FA9D1C8E1F9E1F81F23EC29 /* Pods_teatanicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teatanicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D440F52FF78AD2DBE6DCEFE /* Pods_teatanic_teatanicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teatanic_teatanicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860352892CDFD6BF93161C2C /* Pods-teatanic-teatanicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teatanic-teatanicUITests.debug.xcconfig"; path = "Target Support Files/Pods-teatanic-teatanicUITests/Pods-teatanic-teatanicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB718E3D8EC00C11A6301CBD /* Pods-teatanic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teatanic.release.xcconfig"; path = "Target Support Files/Pods-teatanic/Pods-teatanic.release.xcconfig"; sourceTree = "<group>"; };
+		BB96CB86ACEF9242FBA0178F /* Pods_teatanic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teatanic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D69FD26E76A4200619517 /* teatanic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teatanic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D6A0026E76A4200619517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E70D6A0226E76A4200619517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E70D6A0426E76A4200619517 /* MainBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBoardViewController.swift; sourceTree = "<group>"; };
+		E70D6A0726E76A4200619517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E70D6A0A26E76A4200619517 /* teatanic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = teatanic.xcdatamodel; sourceTree = "<group>"; };
+		E70D6A0C26E76A4300619517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E70D6A0F26E76A4300619517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E70D6A1126E76A4300619517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D6A1626E76A4300619517 /* teatanicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teatanicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D6A1A26E76A4300619517 /* teatanicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teatanicTests.swift; sourceTree = "<group>"; };
+		E70D6A1C26E76A4300619517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D6A2126E76A4300619517 /* teatanicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teatanicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70D6A2526E76A4300619517 /* teatanicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teatanicUITests.swift; sourceTree = "<group>"; };
+		E70D6A2726E76A4300619517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70D6A3326E76AC700619517 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E70D6A3626E799BB00619517 /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		E70D6A3826E7A88700619517 /* BoardDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDataSource.swift; sourceTree = "<group>"; };
+		E70D6A3B26E7B2BD00619517 /* TeaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaType.swift; sourceTree = "<group>"; };
+		E70D6A3E26E8B77800619517 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		E70D6A4126E8E01D00619517 /* TeaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaViewController.swift; sourceTree = "<group>"; };
+		E70D6A4326E8F9B600619517 /* TeaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaTableViewCell.swift; sourceTree = "<group>"; };
+		E70D6A4526E8FA3100619517 /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
+		E70D6A4726E8FCA100619517 /* TeaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaDataSource.swift; sourceTree = "<group>"; };
+		E70D6A4926E9004B00619517 /* ViewExpert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExpert.swift; sourceTree = "<group>"; };
+		E7216C0326F0BD15002B5136 /* CartTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableDataSource.swift; sourceTree = "<group>"; };
+		E7216C0526F0BD71002B5136 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		E7216C0B26F1E9A6002B5136 /* CartUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartUtil.swift; sourceTree = "<group>"; };
+		E7216C0D26F28234002B5136 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		E7216C0F26F28264002B5136 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E7216C1126F28396002B5136 /* SideMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOption.swift; sourceTree = "<group>"; };
+		E7216C1326F283DA002B5136 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		E72CE72526EF71B5005CAB5B /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		E72CE72A26EF7A57005CAB5B /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		E72DFDEC2705B54000E72C22 /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
+		E764095926EB428500F78BD7 /* TeaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaDetailViewController.swift; sourceTree = "<group>"; };
+		E764095B26EB494200F78BD7 /* IngredientsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsDataSource.swift; sourceTree = "<group>"; };
+		E764095D26EB8C1B00F78BD7 /* WrapContentTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapContentTableView.swift; sourceTree = "<group>"; };
+		E7B95DD32704E0E400BBBB21 /* CustomPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopupView.swift; sourceTree = "<group>"; };
+		E7B95DD52704E80900BBBB21 /* CustomPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopupViewController.swift; sourceTree = "<group>"; };
+		ED0D8F8662AD812F96E44619 /* Pods-teatanicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teatanicTests.debug.xcconfig"; path = "Target Support Files/Pods-teatanicTests/Pods-teatanicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C102DBE33EA49DD9F0E9A4 /* Pods-teatanicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teatanicTests.release.xcconfig"; path = "Target Support Files/Pods-teatanicTests/Pods-teatanicTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70D69FA26E76A4200619517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BE2117F1024C09B0DC2706 /* Pods_teatanic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D6A1326E76A4300619517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3072F63D1BB7E8207FCF0E /* Pods_teatanicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D6A1E26E76A4300619517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A246744F29507950EFE5E9D0 /* Pods_teatanic_teatanicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026E3ABFA6A87F493650079E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2415081454B0D8845F63B16E /* Pods-teatanic.debug.xcconfig */,
+				BB718E3D8EC00C11A6301CBD /* Pods-teatanic.release.xcconfig */,
+				860352892CDFD6BF93161C2C /* Pods-teatanic-teatanicUITests.debug.xcconfig */,
+				1B5F4F8E9CC2906AA501BAAE /* Pods-teatanic-teatanicUITests.release.xcconfig */,
+				ED0D8F8662AD812F96E44619 /* Pods-teatanicTests.debug.xcconfig */,
+				F1C102DBE33EA49DD9F0E9A4 /* Pods-teatanicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F7E681ED1394620AD92CD55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB96CB86ACEF9242FBA0178F /* Pods_teatanic.framework */,
+				4D440F52FF78AD2DBE6DCEFE /* Pods_teatanic_teatanicUITests.framework */,
+				3FA9D1C8E1F9E1F81F23EC29 /* Pods_teatanicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E70D69F426E76A4200619517 = {
+			isa = PBXGroup;
+			children = (
+				E70D69FF26E76A4200619517 /* teatanic */,
+				E70D6A1926E76A4300619517 /* teatanicTests */,
+				E70D6A2426E76A4300619517 /* teatanicUITests */,
+				E70D69FE26E76A4200619517 /* Products */,
+				026E3ABFA6A87F493650079E /* Pods */,
+				7F7E681ED1394620AD92CD55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E70D69FE26E76A4200619517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70D69FD26E76A4200619517 /* teatanic.app */,
+				E70D6A1626E76A4300619517 /* teatanicTests.xctest */,
+				E70D6A2126E76A4300619517 /* teatanicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70D69FF26E76A4200619517 /* teatanic */ = {
+			isa = PBXGroup;
+			children = (
+				E70D6A3526E7999000619517 /* board */,
+				E70D6A4026E8DE1700619517 /* teas view */,
+				E764095826EB426900F78BD7 /* tea detail */,
+				E72CE72426EF71A4005CAB5B /* cart */,
+				E72CE71D26EF3A4F005CAB5B /* menu */,
+				E70D6A3A26E7B2A300619517 /* model */,
+				E70D6A3D26E8B76600619517 /* utils */,
+				E70D6A0026E76A4200619517 /* AppDelegate.swift */,
+				E70D6A0226E76A4200619517 /* SceneDelegate.swift */,
+				E70D6A0626E76A4200619517 /* Main.storyboard */,
+				E70D6A0C26E76A4300619517 /* Assets.xcassets */,
+				E70D6A1126E76A4300619517 /* Info.plist */,
+				E70D6A0926E76A4200619517 /* teatanic.xcdatamodeld */,
+				E70D6A3326E76AC700619517 /* GoogleService-Info.plist */,
+				E70D6A0E26E76A4300619517 /* LaunchScreen.storyboard */,
+			);
+			path = teatanic;
+			sourceTree = "<group>";
+		};
+		E70D6A1926E76A4300619517 /* teatanicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E70D6A1A26E76A4300619517 /* teatanicTests.swift */,
+				E70D6A1C26E76A4300619517 /* Info.plist */,
+			);
+			path = teatanicTests;
+			sourceTree = "<group>";
+		};
+		E70D6A2426E76A4300619517 /* teatanicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E70D6A2526E76A4300619517 /* teatanicUITests.swift */,
+				E70D6A2726E76A4300619517 /* Info.plist */,
+			);
+			path = teatanicUITests;
+			sourceTree = "<group>";
+		};
+		E70D6A3526E7999000619517 /* board */ = {
+			isa = PBXGroup;
+			children = (
+				E7216C0F26F28264002B5136 /* MainViewController.swift */,
+				E70D6A0426E76A4200619517 /* MainBoardViewController.swift */,
+				E70D6A3626E799BB00619517 /* BoardCollectionViewCell.swift */,
+				E70D6A3826E7A88700619517 /* BoardDataSource.swift */,
+			);
+			path = board;
+			sourceTree = "<group>";
+		};
+		E70D6A3A26E7B2A300619517 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E70D6A3B26E7B2BD00619517 /* TeaType.swift */,
+				E70D6A4526E8FA3100619517 /* Tea.swift */,
+				E7216C1126F28396002B5136 /* SideMenuOption.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E70D6A3D26E8B76600619517 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E764095D26EB8C1B00F78BD7 /* WrapContentTableView.swift */,
+				E70D6A3E26E8B77800619517 /* Strings.swift */,
+				E70D6A4926E9004B00619517 /* ViewExpert.swift */,
+				E72CE72A26EF7A57005CAB5B /* Protocols.swift */,
+				E7216C0B26F1E9A6002B5136 /* CartUtil.swift */,
+				E72DFDEC2705B54000E72C22 /* CustomProgressBar.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E70D6A4026E8DE1700619517 /* teas view */ = {
+			isa = PBXGroup;
+			children = (
+				E70D6A4126E8E01D00619517 /* TeaViewController.swift */,
+				E70D6A4326E8F9B600619517 /* TeaTableViewCell.swift */,
+				E70D6A4726E8FCA100619517 /* TeaDataSource.swift */,
+			);
+			path = "teas view";
+			sourceTree = "<group>";
+		};
+		E72CE71D26EF3A4F005CAB5B /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				E7216C0D26F28234002B5136 /* SideMenuViewController.swift */,
+				E7216C1326F283DA002B5136 /* SideMenuCell.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		E72CE72426EF71A4005CAB5B /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				E7B95DD12704E0C000BBBB21 /* popup */,
+				E72CE72526EF71B5005CAB5B /* CartViewController.swift */,
+				E7216C0326F0BD15002B5136 /* CartTableDataSource.swift */,
+				E7216C0526F0BD71002B5136 /* CartCell.swift */,
+			);
+			path = cart;
+			sourceTree = "<group>";
+		};
+		E764095826EB426900F78BD7 /* tea detail */ = {
+			isa = PBXGroup;
+			children = (
+				E764095926EB428500F78BD7 /* TeaDetailViewController.swift */,
+				E764095B26EB494200F78BD7 /* IngredientsDataSource.swift */,
+			);
+			path = "tea detail";
+			sourceTree = "<group>";
+		};
+		E7B95DD12704E0C000BBBB21 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				E7B95DD32704E0E400BBBB21 /* CustomPopupView.swift */,
+				E7B95DD52704E80900BBBB21 /* CustomPopupViewController.swift */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70D69FC26E76A4200619517 /* teatanic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D6A2A26E76A4300619517 /* Build configuration list for PBXNativeTarget "teatanic" */;
+			buildPhases = (
+				B6D218A40E6D52BED49936C5 /* [CP] Check Pods Manifest.lock */,
+				E70D69F926E76A4200619517 /* Sources */,
+				E70D69FA26E76A4200619517 /* Frameworks */,
+				E70D69FB26E76A4200619517 /* Resources */,
+				0D8594F2E4AA1B092024BA76 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teatanic;
+			productName = teatanic;
+			productReference = E70D69FD26E76A4200619517 /* teatanic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E70D6A1526E76A4300619517 /* teatanicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D6A2D26E76A4300619517 /* Build configuration list for PBXNativeTarget "teatanicTests" */;
+			buildPhases = (
+				94C9310CE4A47F9A25D78CE3 /* [CP] Check Pods Manifest.lock */,
+				E70D6A1226E76A4300619517 /* Sources */,
+				E70D6A1326E76A4300619517 /* Frameworks */,
+				E70D6A1426E76A4300619517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70D6A1826E76A4300619517 /* PBXTargetDependency */,
+			);
+			name = teatanicTests;
+			productName = teatanicTests;
+			productReference = E70D6A1626E76A4300619517 /* teatanicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E70D6A2026E76A4300619517 /* teatanicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70D6A3026E76A4300619517 /* Build configuration list for PBXNativeTarget "teatanicUITests" */;
+			buildPhases = (
+				0FF905998D7CF942EF3EDBB7 /* [CP] Check Pods Manifest.lock */,
+				E70D6A1D26E76A4300619517 /* Sources */,
+				E70D6A1E26E76A4300619517 /* Frameworks */,
+				E70D6A1F26E76A4300619517 /* Resources */,
+				1FFF532D27FBD447B1F42520 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70D6A2326E76A4300619517 /* PBXTargetDependency */,
+			);
+			name = teatanicUITests;
+			productName = teatanicUITests;
+			productReference = E70D6A2126E76A4300619517 /* teatanicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70D69F526E76A4200619517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E70D69FC26E76A4200619517 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E70D6A1526E76A4300619517 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E70D69FC26E76A4200619517;
+					};
+					E70D6A2026E76A4300619517 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E70D69FC26E76A4200619517;
+					};
+				};
+			};
+			buildConfigurationList = E70D69F826E76A4200619517 /* Build configuration list for PBXProject "teatanic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E70D69F426E76A4200619517;
+			productRefGroup = E70D69FE26E76A4200619517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70D69FC26E76A4200619517 /* teatanic */,
+				E70D6A1526E76A4300619517 /* teatanicTests */,
+				E70D6A2026E76A4300619517 /* teatanicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70D69FB26E76A4200619517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D6A1026E76A4300619517 /* LaunchScreen.storyboard in Resources */,
+				E70D6A3426E76AC700619517 /* GoogleService-Info.plist in Resources */,
+				E70D6A0D26E76A4300619517 /* Assets.xcassets in Resources */,
+				E70D6A0826E76A4200619517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D6A1426E76A4300619517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D6A1F26E76A4300619517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8594F2E4AA1B092024BA76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teatanic/Pods-teatanic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teatanic/Pods-teatanic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teatanic/Pods-teatanic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FF905998D7CF942EF3EDBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teatanic-teatanicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFF532D27FBD447B1F42520 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teatanic-teatanicUITests/Pods-teatanic-teatanicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teatanic-teatanicUITests/Pods-teatanic-teatanicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teatanic-teatanicUITests/Pods-teatanic-teatanicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C9310CE4A47F9A25D78CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teatanicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D218A40E6D52BED49936C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teatanic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70D69F926E76A4200619517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E764095C26EB494200F78BD7 /* IngredientsDataSource.swift in Sources */,
+				E70D6A0526E76A4200619517 /* MainBoardViewController.swift in Sources */,
+				E70D6A0126E76A4200619517 /* AppDelegate.swift in Sources */,
+				E7216C0C26F1E9A6002B5136 /* CartUtil.swift in Sources */,
+				E7216C1226F28396002B5136 /* SideMenuOption.swift in Sources */,
+				E764095A26EB428500F78BD7 /* TeaDetailViewController.swift in Sources */,
+				E7216C1426F283DA002B5136 /* SideMenuCell.swift in Sources */,
+				E72DFDED2705B54000E72C22 /* CustomProgressBar.swift in Sources */,
+				E70D6A3F26E8B77800619517 /* Strings.swift in Sources */,
+				E70D6A4A26E9004B00619517 /* ViewExpert.swift in Sources */,
+				E70D6A3C26E7B2BD00619517 /* TeaType.swift in Sources */,
+				E70D6A3726E799BB00619517 /* BoardCollectionViewCell.swift in Sources */,
+				E72CE72B26EF7A57005CAB5B /* Protocols.swift in Sources */,
+				E70D6A4226E8E01D00619517 /* TeaViewController.swift in Sources */,
+				E72CE72626EF71B5005CAB5B /* CartViewController.swift in Sources */,
+				E70D6A0B26E76A4200619517 /* teatanic.xcdatamodeld in Sources */,
+				E70D6A4826E8FCA100619517 /* TeaDataSource.swift in Sources */,
+				E7216C1026F28264002B5136 /* MainViewController.swift in Sources */,
+				E7216C0426F0BD15002B5136 /* CartTableDataSource.swift in Sources */,
+				E7216C0E26F28234002B5136 /* SideMenuViewController.swift in Sources */,
+				E7B95DD42704E0E400BBBB21 /* CustomPopupView.swift in Sources */,
+				E7216C0626F0BD71002B5136 /* CartCell.swift in Sources */,
+				E70D6A0326E76A4200619517 /* SceneDelegate.swift in Sources */,
+				E70D6A4626E8FA3100619517 /* Tea.swift in Sources */,
+				E764095E26EB8C1B00F78BD7 /* WrapContentTableView.swift in Sources */,
+				E70D6A4426E8F9B600619517 /* TeaTableViewCell.swift in Sources */,
+				E70D6A3926E7A88700619517 /* BoardDataSource.swift in Sources */,
+				E7B95DD62704E80900BBBB21 /* CustomPopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D6A1226E76A4300619517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D6A1B26E76A4300619517 /* teatanicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70D6A1D26E76A4300619517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D6A2626E76A4300619517 /* teatanicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E70D6A1826E76A4300619517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70D69FC26E76A4200619517 /* teatanic */;
+			targetProxy = E70D6A1726E76A4300619517 /* PBXContainerItemProxy */;
+		};
+		E70D6A2326E76A4300619517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70D69FC26E76A4200619517 /* teatanic */;
+			targetProxy = E70D6A2226E76A4300619517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E70D6A0626E76A4200619517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70D6A0726E76A4200619517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E70D6A0E26E76A4300619517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70D6A0F26E76A4300619517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E70D6A2826E76A4300619517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E70D6A2926E76A4300619517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70D6A2B26E76A4300619517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2415081454B0D8845F63B16E /* Pods-teatanic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BT9J3B7Y;
+				INFOPLIST_FILE = teatanic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "teatanic-project.teatanic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70D6A2C26E76A4300619517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB718E3D8EC00C11A6301CBD /* Pods-teatanic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BT9J3B7Y;
+				INFOPLIST_FILE = teatanic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "teatanic-project.teatanic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E70D6A2E26E76A4300619517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0D8F8662AD812F96E44619 /* Pods-teatanicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BT9J3B7Y;
+				INFOPLIST_FILE = teatanicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "teatanic-project.teatanicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teatanic.app/teatanic";
+			};
+			name = Debug;
+		};
+		E70D6A2F26E76A4300619517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C102DBE33EA49DD9F0E9A4 /* Pods-teatanicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BT9J3B7Y;
+				INFOPLIST_FILE = teatanicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "teatanic-project.teatanicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teatanic.app/teatanic";
+			};
+			name = Release;
+		};
+		E70D6A3126E76A4300619517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860352892CDFD6BF93161C2C /* Pods-teatanic-teatanicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BT9J3B7Y;
+				INFOPLIST_FILE = teatanicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "teatanic-project.teatanicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = teatanic;
+			};
+			name = Debug;
+		};
+		E70D6A3226E76A4300619517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5F4F8E9CC2906AA501BAAE /* Pods-teatanic-teatanicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BT9J3B7Y;
+				INFOPLIST_FILE = teatanicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "teatanic-project.teatanicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = teatanic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70D69F826E76A4200619517 /* Build configuration list for PBXProject "teatanic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D6A2826E76A4300619517 /* Debug */,
+				E70D6A2926E76A4300619517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D6A2A26E76A4300619517 /* Build configuration list for PBXNativeTarget "teatanic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D6A2B26E76A4300619517 /* Debug */,
+				E70D6A2C26E76A4300619517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D6A2D26E76A4300619517 /* Build configuration list for PBXNativeTarget "teatanicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D6A2E26E76A4300619517 /* Debug */,
+				E70D6A2F26E76A4300619517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70D6A3026E76A4300619517 /* Build configuration list for PBXNativeTarget "teatanicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70D6A3126E76A4300619517 /* Debug */,
+				E70D6A3226E76A4300619517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E70D6A0926E76A4200619517 /* teatanic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E70D6A0A26E76A4200619517 /* teatanic.xcdatamodel */,
+			);
+			currentVersion = E70D6A0A26E76A4200619517 /* teatanic.xcdatamodel */;
+			path = teatanic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E70D69F526E76A4200619517 /* Project object */;
+}
