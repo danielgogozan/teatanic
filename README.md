@@ -16,6 +16,7 @@ App Flow:
 ![App flow](https://i.ibb.co/GJFQ8yD/teatanic-flow.png)
 
 Screens demo:
-access this link for full demo: https://s9.gifyu.com/images/ezgif.com-gif-maker-183b252b90202e67e.gif
+
+full demo [here](https://s9.gifyu.com/images/ezgif.com-gif-maker-183b252b90202e67e.gif)
 
 ![Screens demo](https://s9.gifyu.com/images/ezgif.com-gif-maker-183b252b90202e67e.gif)
