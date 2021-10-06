@@ -13,7 +13,7 @@ This application intends to provide an example on how to:
 # explore
 App Flow:
 
-![App flow](https://i.ibb.co/GJFQ8yD/teatanic-flow.png)
+![App flow](https://i.ibb.co/5Wr4yK9/image-2.png)
 
 Screens demo:
 
