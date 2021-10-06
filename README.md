@@ -13,7 +13,7 @@ This application intends to provide an example on how to:
 # explore
 App Flow:
 
-![App flow](https://ibb.co/zhXxY65)
+![App flow](https://i.ibb.co/GvWpLHJ/image-2.png)
 
 Screens demo:
 
