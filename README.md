@@ -4,7 +4,7 @@ Teatanic is an iOS application that simulates a tea shop. A user is able to sear
 # purpose
 This application intends to provide an example on how to:
 - use **Core Data**
-- use **Firebase**
+- use **Firebase** (make sure you create your own Firebase Realtime Database; you can use the *teas.json* in order to populate your db)
 - implement *custom menu* (credits to https://johncodeos.com/)
 - implement *custom popups/toasts*
 - implement *communication between view controllers*
@@ -13,9 +13,9 @@ This application intends to provide an example on how to:
 # explore
 App Flow:
 
-[hd](https://i.ibb.co/5Wr4yK9/image-2.png)
+[hd](https://i.ibb.co/T4Bhrbz/image-3.png)
 
-![App flow](https://i.ibb.co/GvWpLHJ/image-2.png)
+![App flow](https://i.ibb.co/N96Y7mw/image-3.png)
 
 Screens demo:
 
