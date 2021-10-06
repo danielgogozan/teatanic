@@ -8,6 +8,7 @@ This application intends to provide an example on how to:
 - use ScrollView ([here's](https://medium.com/macoclock/scroll-views-in-xcode-11-d1600540e0d2) a nice explanation)
 - implement *custom menu* (credits to https://johncodeos.com/)
 - implement *custom popups/toasts*
+- implement *custom loading view*
 - implement *communication between view controllers*
 - improve UI using *background threads* from DispatchQueue
 
